@@ -1,0 +1,75 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: solid 2px blue;
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    /* block, 
+    inline, 
+    inline - block:allows to use width and height
+     */
+    display: inline;
+
+}
+
+
+/* classwork */
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+.card{
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px gainsboro ;
+}
+
+.card img{
+width: 70px;
+height: 70px;
+margin-left: 20px;
+}
+
+.item img{
+width: 15px;
+height: 15px;
+}
+
+.price h2, p{
+display: inline-block;
+}
+
+.price h2{
+    margin-left: 20px;
+}
+
+.description{
+    margin-left: 20px;
+    
+}
+
+button{
+    margin-left: 20px;
+    width: 250px;
+    background-color: lightgray;
+    padding: 8px;
+    border-radius: 8px;
+    border:none ;
+
+}
+
+.description p{
+    border-bottom: solid 1px gray;
+    width: 240px;
+   
+}
+
+.description h2{
+    color: #FFC847
+}
