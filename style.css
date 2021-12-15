@@ -28,29 +28,35 @@ body{
     background-color: white;
     border-radius: 10px;
     box-shadow: 4px 4px 20px gainsboro ;
+    display: inline-block;
 }
 
 .card img{
 width: 70px;
 height: 70px;
 margin-left: 20px;
+
 }
 
 .item img{
 width: 15px;
 height: 15px;
+
 }
 
 .price h2, p{
 display: inline-block;
+
 }
 
 .price h2{
     margin-left: 20px;
+   
 }
 
 .description{
     margin-left: 20px;
+   
     
 }
 
@@ -62,14 +68,67 @@ button{
     border-radius: 8px;
     border:none ;
 
+
 }
 
 .description p{
     border-bottom: solid 1px gray;
     width: 240px;
-   
+ 
 }
 
 .description h2{
     color: #FFC847
+}
+.description1 h2{
+    color: #42B9F4;
+}
+.description1 p{
+    border-bottom: solid 1px gray;
+    width: 240px;
+}
+.description1{
+    margin-left: 20px;
+   
+    
+}
+.cards{
+    display: inline-block;
+}
+.cards1{
+    display: inline-block;
+    padding: 25px;
+}
+.buton{
+    margin-left: 20px;
+    width: 250px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border:none ;
+    border: solid 1px gray;
+}
+
+.buton3{
+    margin-left: 20px;
+    width: 250px;
+    background-color: #46D68C;
+    padding: 8px;
+    border-radius: 8px;
+    border:none ;
+    color: white;
+}
+.description2{
+    margin-left: 20px;
+}
+
+.description2 h2{
+ color: #46D68C;
+}
+.description2 p{
+    border-bottom: solid 1px gray;
+    width: 240px;
+}
+.cards2{
+    display: inline-block;
 }
